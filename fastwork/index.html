@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.html">
+</head>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="channels4_profile.jpg" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </header>
+
+<div class="content">
+    <div class="indicator">
+        <span class="btn active"><img src="JOKERS-644X755.png" alt=""></span>
+        <span class="btn"><img src="apple-banana-gelato-strain-nug.png" alt=""></span>
+        <span class="btn"><img src="Rainbow-Belts-2.png" alt=""></span>
+        <span class="btn"><img src="Layer-Cake.png" alt=""></span>
+        
+</div>
+        
+        <div class="slider" id="slide">
+        <div class="textbox">
+            <h2>marijuana
+                <br>It's <span>Jokerz </span></h2>
+            <p>is an indica-dominant hybrid weed strain made by crossing White Runtz with Jet Fuel Gelato. Jokerz effects are believed to be more relaxing than energizing.</p>
+            </div>
+        <div class="imgBox">
+        <img src="JOKERS-644X755.png" class="weed">
+    </div>
+    <div class="slider">
+        <div class="textbox">
+            <h2 style="margin-top: 10px;"
+            >marijuana<br>It's <span>Rainbow-Belts</span></h2>
+            <p>is an evenly balanced hybrid strain (50% indica/50% sativa) created through crossing the delicious Zkittlez X Moonbow strains. Named for its gorgeous appearance and delicious flavor, Rainbow Belts is perfect for any hybrid lover who wants a long-lasting high and a great taste.</p>
+            </div>
+            </div>
+    <div class="imgBox">
+        <img src="Rainbow-Belts-2.png" class="weed">
+    </div>
+    <div class="slider">
+        <div class="textbox">
+            <h2>marijuana<br>It's <span>ApplesBananas</span></h2>
+            <p>creative hybrid. Its fruity, soft, dank gasoline taste and super-high THC scores</p>
+            </div>
+            </div>
+    <div class="imgBox">
+        <img src="apple-banana-gelato-strain-nug.png" class="weed4">
+    </div>
+    <div class="slider">
+        <div class="textbox">
+            <h2>marijuana<br>It's <span>Layer-Cake</span></h2>
+            <p>high-powered, indica-dominant cannabis strain
+                recommend the strain for working around the house, eating, exercising, walking, and just generally being. If you 
+                want to go on a relaxing nature hike, Layer Cake is a great snack to pack.
+            </p>
+            </div>
+            </div>
+    <div class="imgBox">
+        <div class="weed3">
+        <img src="Layer-Cake.png" class="weed">
+    </div>
+    </div>
+</div>
+    </section>
+
+<script>
+        var btn = document.getElementsByClassName("btn");
+        var slide = document.getElementById("slide");
+
+        btn[0].onclick = function(){
+            slide.style.transform = "translateX(0px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[1].onclick = function(){
+            slide.style.transform = "translateX(-3432px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[2].onclick = function(){
+            slide.style.transform = "translateX(-1716px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[3].onclick = function(){
+            slide.style.transform = "translateX(-5148px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+</script>
+<body>
+    
+</body>
+</html>
